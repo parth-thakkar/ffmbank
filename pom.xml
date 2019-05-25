@@ -6,8 +6,12 @@
 
   <groupId>org.bank.risk</groupId>
   <artifactId>ffmbank</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>ffmbank</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>fileprocessor</module>
+    </modules>
+    <name>ffmbank</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
