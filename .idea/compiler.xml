@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ffmbank" target="8" />
-      <module name="fileprocessor" target="8" />
+      <module name="ffmbank" target="1.8" />
+      <module name="fileprocessor" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
