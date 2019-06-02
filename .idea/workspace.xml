@@ -2,22 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc3d4270-7044-4dfa-b445-92ef9e3a8e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/customeraccounts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/AccountServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/VerificationServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customeraccounts/src/main/resources/service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/Notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileprocessor/src/main/resources/service.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffmbank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ffmbank.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileprocessor/fileprocessor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fileprocessor/fileprocessor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileprocessor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fileprocessor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/fileprocessor/target/" />
+    <ignored path="$PROJECT_DIR$/customeraccounts/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileprocessor/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2553">
-              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+            <state relative-caret-position="190">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -41,39 +63,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="460">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/AccountServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/App.java">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/resources/service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/app.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="72">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/VerificationServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,9 +149,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/bank/risk/App.java" />
         <option value="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/App.java" />
-        <option value="$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/Application.java" />
+        <option value="$PROJECT_DIR$/fileprocessor/src/main/resources/service.xml" />
+        <option value="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/Notify.java" />
+        <option value="$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/FileReader.java" />
         <option value="$PROJECT_DIR$/fileprocessor/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/AccountServices.java" />
+        <option value="$PROJECT_DIR$/customeraccounts/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/customeraccounts/pom.xml" />
+        <option value="$PROJECT_DIR$/customeraccounts/src/main/resources/service.xml" />
       </list>
     </option>
   </component>
@@ -110,6 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,25 +198,98 @@
             <path>
               <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="risk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="risk" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="customeraccounts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
               <item name="fileprocessor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="fileprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="fileprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmbank" type="462c0819:PsiDirectoryNode" />
+              <item name="fileprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/customeraccounts/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\parth\IdeaProjects\ffmbank\customeraccounts\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,12 +334,21 @@
       <option name="presentableId" value="Default" />
       <updated>1558741714192</updated>
     </task>
+    <task id="LOCAL-00001" summary="intellij windows config">
+      <created>1559482213860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559482213860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1606" height="903" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16174583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1966581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -196,15 +356,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44223604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29053178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5460441" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3229572" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32814527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,59 +374,137 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intellij windows config" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij windows config" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fileprocessor/target/classes/logback.xml" />
+    <entry file="file://$PROJECT_DIR$/logs/app.log">
+      <provider editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileprocessor/target/classes/logback.xml">
+    <entry file="file://$PROJECT_DIR$/gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="252">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bank/risk/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileprocessor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2553">
-          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/app.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/resources/service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/java/org/bank/risk/services/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/VerificationServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileprocessor/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/java/org/bank/risk/services/AccountServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customeraccounts/src/main/resources/service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>

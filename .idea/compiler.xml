@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fileprocessor" />
+        <module name="customeraccounts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="customeraccounts" target="1.8" />
       <module name="ffmbank" target="1.8" />
-      <module name="fileprocessor" target="1.7" />
+      <module name="fileprocessor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
