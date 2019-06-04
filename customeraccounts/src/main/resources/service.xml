@@ -4,7 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<bean id="accountService" class="org.bank.risk.services.AccountService">
+	<property name="verificationServices" ref="verificationService"/>
+</bean>
 
 
+<bean id="verificationSerivce" class="org.bank.risk.services.VerificationService">
+</bean>
 
 </beans>
